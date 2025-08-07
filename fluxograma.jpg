@@ -1,0 +1,16 @@
+ [Início]
+     ↓
+[Leia n]
+     ↓
+[n < 1 ou n > 10?]
+     ├── Sim ─→ [Mostrar "Número inválido"] → [Fim]
+     ↓ Não
+[dezena ← n - 1]
+     ↓
+[unidade ← 10 - n]
+     ↓
+[resultado ← dezena * 10 + unidade]
+     ↓
+[Mostrar resultado]
+     ↓
+    [Fim]
