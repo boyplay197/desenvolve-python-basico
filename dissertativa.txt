@@ -1,0 +1,21 @@
+Este algoritmo tem como objetivo calcular a multiplicação de um número inteiro n (entre 1 e 10) por 9, utilizando um truque matemático simples baseado em decomposição de dígitos.
+
+Regras do truque:
+1. Subtrai-se 1 do número n. Esse será o primeiro dígito do resultado.
+2. Subtrai-se o número n de 10. Esse será o segundo dígito do resultado.
+3. O resultado final da multiplicação é obtido multiplicando o primeiro dígito por 10 e somando com o segundo dígito.
+
+Fórmula:  
+9 x n = (n - 1) * 10 + (10 - n)
+
+Exemplo:
+Para n = 7  
+1º dígito: 7 - 1 = 6  
+2º dígito: 10 - 7 = 3  
+Resultado: 6 * 10 + 3 = 63  
+Portanto, 9 x 7 = 63
+
+Etapas do algoritmo:
+Entrada: Ler o valor de n  
+Processamento: Aplicar as operações do truque  
+Saída: Exibir o resultado final
